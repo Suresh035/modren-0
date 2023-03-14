@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+	
+}
+#navbar{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	padding: 1rem 6rem;
+	opacity: 85%;
+	box-shadow: 5px 5px 15px 10px black;
+	background: #000000;
+	
+}
+.navbar .navbar-brand{
+	font-size: 28px;
+	font-weight: bolder;
+	color: green;
+	font-family: frijole;
+}
+#navbarSupportedContent{
+	color: white;
+	border-bottom: 3px solid transparent;
+	
+}
+#navbarSupportedContent a:hover{
+   border-bottom: 3px solid green;
+}
+
+
+#navbarSupportedContent button{
+	background: green;
+	width: 5rem;
+	border-radius: 10px;
+}
+
+
+section{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/*.....home.......*/
+
+
+#Home{
+	background: url("images/hero banner.png");
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+}
+
+#Home h1{
+	font-size: 50px;
+	color: yellow;
+	letter-spacing: 3px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-shadow: 0px 1px 0px #ccc;
+	text-shadow: 0px 2px 0px #ccc;
+	text-shadow: 0px 3px 0px yellow;
+	text-shadow: 0px 4px 0px #ccc;
+	text-shadow: 0px 5px 0px #ccc;
+	font-weight: 700;
+padding-top:  300px;
+}
+
+#Home p{
+	font-size: 45px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+}
+#Home p span{
+	font-size: 40px;
+	color: blue;
+	font-weight: lighter;
+}
+
+
+
+
+     /*.....About.......*/
+
+#about{
+	background: linear-gradient(to right, lightblue, #ea1d6f 100%);
+	min-height: 50vh;	
+}
+#about h1{
+	font-weight: 800;
+	font-size: 60px;
+}
+#about p{
+	font-size: 18px;
+	color: white;
+}
+
+
+/*........service.....*/
+#Service h1{
+	font-weight: 500;
+	font-size: 50px;
+	text-align: center;
+		
+}
+
+#Service h2{
+	font-weight: 300;
+	font-size: 40px
+		
+}
+	#Service	p{
+	font-size: 18px;
+	color: black;
+}
+#Service img{
+	align-items: center;
+	border-radius: 10px;
+    box-shadow: 1px 2px 5px 3px grey;
+}
+
+
+/*.......contact........*/
+
+
+#contact h1{
+	font-size: 50px;
+	color: black;
+	font-weight: 500;
+}
+ 
+
+#contact p{
+	font-size: 20px;
+	color: black;
+	line-height: 50px;
+}
+
+#contact p span{
+	font-size: 22px;
+	color:blueviolet;
+	border-bottom: 1px solid blue;
+}
+#contact img{
+	align-items: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+#contact label{
+	font-size: 20px;
+	font-weight: 300;
+}
+#contact input{
+	margin: 10px 0px;
+}
+#contact textarea{
+	margin: 10px 0px;
+}
+#contact button{
+	background: #E9E9E9;
+	
+}
+#contact button:hover{
+	border: 2px solid green;
+}
+
